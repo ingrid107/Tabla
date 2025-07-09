@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>TP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #transparent;
+      background-image: url('img/porta.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-blend-mode: lighten;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center; /* corrección */
+	  color: black;
+	  font-size: 50px;
+    }
+    img {
+      display: block;
+      margin: 10px auto 20px auto;
+      width: 200px;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+    td {
+      width: 60px;
+      height: 60px;
+      text-align: center; /* corrección */
+      vertical-align: middle; /* corrección */
+      border: 1px solid #ccc;
+      font-size: 14px;
+      background-color: #e0f7fa;
+    }
+    .element {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .empty {
+      border: none;
+      background-color: transparent;
+    }
+    .metal {
+      background-color: #fce4ec;
+    }
+    .nonmetal {
+      background-color: #e8f5e9;
+    }
+    .noble-gas {
+      background-color: #ede7f6;
+    }
+    .lanthanoid {
+      background-color: #fff9c4;
+    }
+    .actinoid {
+      background-color: #ffe0b2;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tabla Periódica de los Elementos</h1>
+  <img src="img/portada.jpg" alt="Tabla Periódica">
+
+  <table>
+    <!-- Fila 1 -->
+    <tr>
+      <td class="nonmetal"><span class="element">H</span><br>1</td>
+      <td class="empty" colspan="16"></td>
+      <td class="noble-gas"><span class="element">He</span><br>2</td>
+    </tr>
+
+    <!-- Fila 2 -->
+    <tr>
+      <td class="metal"><span class="element">Li</span><br>3</td>
+      <td class="metal"><span class="element">Be</span><br>4</td>
+      <td class="empty" colspan="10"></td>
+      <td class="nonmetal"><span class="element">B</span><br>5</td>
+      <td class="nonmetal"><span class="element">C</span><br>6</td>
+      <td class="nonmetal"><span class="element">N</span><br>7</td>
+      <td class="nonmetal"><span class="element">O</span><br>8</td>
+      <td class="nonmetal"><span class="element">F</span><br>9</td>
+      <td class="noble-gas"><span class="element">Ne</span><br>10</td>
+    </tr>
+
+    <!-- Fila 3 -->
+    <tr>
+      <td class="metal"><span class="element">Na</span><br>11</td>
+      <td class="metal"><span class="element">Mg</span><br>12</td>
+      <td class="empty" colspan="10"></td>
+      <td class="metal"><span class="element">Al</span><br>13</td>
+      <td class="nonmetal"><span class="element">Si</span><br>14</td>
+      <td class="nonmetal"><span class="element">P</span><br>15</td>
+      <td class="nonmetal"><span class="element">S</span><br>16</td>
+      <td class="nonmetal"><span class="element">Cl</span><br>17</td>
+      <td class="noble-gas"><span class="element">Ar</span><br>18</td>
+    </tr>
+
+    <!-- Fila 4 -->
+    <tr>
+      <td class="metal"><span class="element">K</span><br>19</td>
+      <td class="metal"><span class="element">Ca</span><br>20</td>
+      <td class="metal"><span class="element">Sc</span><br>21</td>
+      <td class="metal"><span class="element">Ti</span><br>22</td>
+      <td class="metal"><span class="element">V</span><br>23</td>
+      <td class="metal"><span class="element">Cr</span><br>24</td>
+      <td class="metal"><span class="element">Mn</span><br>25</td>
+      <td class="metal"><span class="element">Fe</span><br>26</td>
+      <td class="metal"><span class="element">Co</span><br>27</td>
+      <td class="metal"><span class="element">Ni</span><br>28</td>
+      <td class="metal"><span class="element">Cu</span><br>29</td>
+      <td class="metal"><span class="element">Zn</span><br>30</td>
+      <td class="metal"><span class="element">Ga</span><br>31</td>
+      <td class="nonmetal"><span class="element">Ge</span><br>32</td>
+      <td class="nonmetal"><span class="element">As</span><br>33</td>
+      <td class="nonmetal"><span class="element">Se</span><br>34</td>
+      <td class="nonmetal"><span class="element">Br</span><br>35</td>
+      <td class="noble-gas"><span class="element">Kr</span><br>36</td>
+    </tr>
+
+    <!-- Fila 5 -->
+    <tr>
+      <td class="metal"><span class="element">Rb</span><br>37</td>
+      <td class="metal"><span class="element">Sr</span><br>38</td>
+      <td class="metal"><span class="element">Y</span><br>39</td>
+      <td class="metal"><span class="element">Zr</span><br>40</td>
+      <td class="metal"><span class="element">Nb</span><br>41</td>
+      <td class="metal"><span class="element">Mo</span><br>42</td>
+      <td class="metal"><span class="element">Tc</span><br>43</td>
+      <td class="metal"><span class="element">Ru</span><br>44</td>
+      <td class="metal"><span class="element">Rh</span><br>45</td>
+      <td class="metal"><span class="element">Pd</span><br>46</td>
+      <td class="metal"><span class="element">Ag</span><br>47</td>
+      <td class="metal"><span class="element">Cd</span><br>48</td>
+      <td class="metal"><span class="element">In</span><br>49</td>
+      <td class="metal"><span class="element">Sn</span><br>50</td>
+      <td class="nonmetal"><span class="element">Sb</span><br>51</td>
+      <td class="nonmetal"><span class="element">Te</span><br>52</td>
+      <td class="nonmetal"><span class="element">I</span><br>53</td>
+      <td class="noble-gas"><span class="element">Xe</span><br>54</td>
+    </tr>
+
+    <!-- Fila 6 -->
+    <tr>
+      <td class="metal"><span class="element">Cs</span><br>55</td>
+      <td class="metal"><span class="element">Ba</span><br>56</td>
+      <td class="lanthanoid"><span class="element">La</span><br>57</td>
+      <td class="metal"><span class="element">Hf</span><br>72</td>
+      <td class="metal"><span class="element">Ta</span><br>73</td>
+      <td class="metal"><span class="element">W</span><br>74</td>
+      <td class="metal"><span class="element">Re</span><br>75</td>
+      <td class="metal"><span class="element">Os</span><br>76</td>
+      <td class="metal"><span class="element">Ir</span><br>77</td>
+      <td class="metal"><span class="element">Pt</span><br>78</td>
+      <td class="metal"><span class="element">Au</span><br>79</td>
+      <td class="metal"><span class="element">Hg</span><br>80</td>
+      <td class="metal"><span class="element">Tl</span><br>81</td>
+      <td class="metal"><span class="element">Pb</span><br>82</td>
+      <td class="metal"><span class="element">Bi</span><br>83</td>
+      <td class="metal"><span class="element">Po</span><br>84</td>
+      <td class="metal"><span class="element">At</span><br>85</td>
+      <td class="noble-gas"><span class="element">Rn</span><br>86</td>
+    </tr>
+
+    <!-- Fila 7 -->
+    <tr>
+      <td class="metal"><span class="element">Fr</span><br>87</td>
+      <td class="metal"><span class="element">Ra</span><br>88</td>
+      <td class="actinoid"><span class="element">Ac</span><br>89</td>
+      <td class="metal"><span class="element">Rf</span><br>104</td>
+      <td class="metal"><span class="element">Db</span><br>105</td>
+      <td class="metal"><span class="element">Sg</span><br>106</td>
+      <td class="metal"><span class="element">Bh</span><br>107</td>
+      <td class="metal"><span class="element">Hs</span><br>108</td>
+      <td class="metal"><span class="element">Mt</span><br>109</td>
+      <td class="metal"><span class="element">Ds</span><br>110</td>
+      <td class="metal"><span class="element">Rg</span><br>111</td>
+      <td class="metal"><span class="element">Cn</span><br>112</td>
+      <td class="metal"><span class="element">Nh</span><br>113</td>
+      <td class="metal"><span class="element">Fl</span><br>114</td>
+      <td class="metal"><span class="element">Mc</span><br>115</td>
+      <td class="metal"><span class="element">Lv</span><br>116</td>
+      <td class="metal"><span class="element">Ts</span><br>117</td>
+      <td class="noble-gas"><span class="element">Og</span><br>118</td>
+    </tr>
+
+    <!-- Lantánidos -->
+    <tr>
+      <td class="empty" colspan="2"></td>
+      <td class="lanthanoid"><span class="element">Ce</span><br>58</td>
+      <td class="lanthanoid"><span class="element">Pr</span><br>59</td>
+      <td class="lanthanoid"><span class="element">Nd</span><br>60</td>
+      <td class="lanthanoid"><span class="element">Pm</span><br>61</td>
+      <td class="lanthanoid"><span class="element">Sm</span><br>62</td>
+      <td class="lanthanoid"><span class="element">Eu</span><br>63</td>
+      <td class="lanthanoid"><span class="element">Gd</span><br>64</td>
+      <td class="lanthanoid"><span class="element">Tb</span><br>65</td>
+      <td class="lanthanoid"><span class="element">Dy</span><br>66</td>
+      <td class="lanthanoid"><span class="element">Ho</span><br>67</td>
+      <td class="lanthanoid"><span class="element">Er</span><br>68</td>
+      <td class="lanthanoid"><span class="element">Tm</span><br>69</td>
+      <td class="lanthanoid"><span class="element">Yb</span><br>70</td>
+      <td class="lanthanoid"><span class="element">Lu</span><br>71</td>
+    </tr>
+
+    <!-- Actínidos -->
+    <tr>
+      <td class="empty" colspan="2"></td>
+      <td class="actinoid"><span class="element">Th</span><br>90</td>
+      <td class="actinoid"><span class="element">Pa</span><br>91</td>
+      <td class="actinoid"><span class="element">U</span><br>92</td>
+      <td class="actinoid"><span class="element">Np</span><br>93</td>
+      <td class="actinoid"><span class="element">Pu</span><br>94</td>
+      <td class="actinoid"><span class="element">Am</span><br>95</td>
+      <td class="actinoid"><span class="element">Cm</span><br>96</td>
+      <td class="actinoid"><span class="element">Bk</span><br>97</td>
+      <td class="actinoid"><span class="element">Cf</span><br>98</td>
+      <td class="actinoid"><span class="element">Es</span><br>99</td>
+      <td class="actinoid"><span class="element">Fm</span><br>100</td>
+      <td class="actinoid"><span class="element">Md</span><br>101</td>
+      <td class="actinoid"><span class="element">No</span><br>102</td>
+      <td class="actinoid"><span class="element">Lr</span><br>103</td>
+    </tr>
+
+  </table>
+
+</body>
+</html>
